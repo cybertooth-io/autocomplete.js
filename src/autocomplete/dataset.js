@@ -165,7 +165,10 @@ _.mixin(Dataset.prototype, EventEmitter, {
 
         $el.data(datasetKey, that.name);
         $el.data(valueKey, that.displayFn(suggestion) || undefined); // this led to undefined return value
-        $el.data(datumKey, JSON.stringify(suggestion));
+        // @nadnoslen - want's the actual suggestion not some sort of string representation
+        // @see https://cybertooth-io.github.io/ember-data-autocomplete-js/
+        // $el.data(datumKey, JSON.stringify(suggestion));
+        $el.data(datumKey, suggestion);
         $el.children().each(function() { DOM.element(this).css(self.css.suggestionChild); });
 
         return $el;
