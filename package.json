@@ -1,16 +1,14 @@
 {
-  "name": "autocomplete.js",
-  "description": "Fast and fully-featured autocomplete library",
+  "name": "autocomplete.js-cybertooth.io",
+  "description": "Cybertooth.io fork of `autocomplete.js` for https://cybertooth-io.github.io/ember-data-autocomplete-js/",
   "keywords": [
     "autocomplete",
     "typeahead"
   ],
-  "homepage": "https://github.com/algolia/autocomplete.js",
-  "bugs": "https://github.com/algolia/autocomplete.js/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/algolia/autocomplete.js.git"
+    "url": "https://github.com/cybertooth-io/autocomplete.js"
   },
   "devDependencies": {
     "angular": "^1.6.4",
@@ -79,7 +77,7 @@
     "release": "./scripts/release.sh",
     "docs:netlify": "./scripts/netlify-deploy.js"
   },
-  "version": "0.36.0",
+  "version": "0.36.0-cybertooth.0",
   "main": "index.js",
   "dependencies": {
     "immediate": "^3.2.3"
