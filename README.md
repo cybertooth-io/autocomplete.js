@@ -1,3 +1,31 @@
+# autocomplete.js-cybertooth.io
+
+Forked for [Ember-Data-Autocomplete-Js](https://cybertooth-io.github.io/ember-data-autocomplete-js/)
+
+## Why Forked?
+
+https://github.com/algolia/autocomplete.js/issues/282
+
+### What Was The Change?
+
+In `src/autocomplete/dataset`:
+
+```javascript
+  // REPLACED:
+  // $el.data(datumKey, JSON.stringify(suggestion));
+  // WITH:
+  $el.data(datumKey, suggestion);
+
+```
+
+## Is This Maintained?
+
+If Algolia updates I will try to match their changes.
+
+---
+---
+---
+
 # Autocomplete.js
 
 
