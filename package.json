@@ -78,7 +78,7 @@
     "release": "./scripts/release.sh",
     "docs:netlify": "./scripts/netlify-deploy.js"
   },
-  "version": "0.38.0",
+  "version": "0.38.0-cybertooth.1",
   "main": "index.js",
   "dependencies": {
     "immediate": "^3.2.3"
